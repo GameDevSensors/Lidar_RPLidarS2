@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/samples/CMakeLists.txt
+cl : línea de comandos warning D9002: se omite la opción desconocida '-std=c++11'
+  lidar_c_api_test.c
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\lidar_c_api_test.c(52,15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\lidar_c_api_test.c(55,11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\lidar_c_api_test.c(103,29): warning C4477: 'fprintf' : la cadena de formato '%lu' requiere un argumento de tipo 'unsigned long', pero el argumento variádico 1 tiene el tipo 'uint64_t'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\lidar_c_api_test.c(103,29): message : considere el uso de ' %llu' en la cadena de formato
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\lidar_c_api_test.c(103,29): message : considere el uso de ' %I64u' en la cadena de formato
+LINK : warning LNK4044: opción '/lstdc++' no reconocida; omitida
+LINK : warning LNK4044: opción '/lm' no reconocida; omitida
+Release\lidar_c_api_test.obj : fatal error LNK1112: tipo de equipo del módulo 'x86' en conflicto con tipo de equipo de destino 'x64'

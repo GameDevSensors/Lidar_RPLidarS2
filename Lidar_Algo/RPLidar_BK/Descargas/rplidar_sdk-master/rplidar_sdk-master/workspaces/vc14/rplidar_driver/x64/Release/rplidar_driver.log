@@ -1,0 +1,85 @@
+﻿  net_serial.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\net_serial.cpp(154,41): warning C4267: 'argumento': conversión de 'size_t' a 'DWORD'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\net_serial.cpp(167,40): warning C4267: 'argumento': conversión de 'size_t' a 'DWORD'; posible pérdida de datos
+  net_socket.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\net_socket.cpp(238,37): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\net_socket.cpp(243,37): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\net_socket.cpp(514,61): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\net_socket.cpp(533,52): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\net_socket.cpp(629,38): warning C4244: 'argumento': conversión de 'SOCKET' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\net_socket.cpp(888,19): warning C4244: 'inicializando': conversión de 'SOCKET' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\net_socket.cpp(902,19): warning C4244: 'inicializando': conversión de 'SOCKET' a 'int'; posible pérdida de datos
+  timer.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+  thread.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\winthread.hpp(53,26): warning C4312: 'reinterpret_cast': conversión de '_word_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\winthread.hpp(55,21): warning C4312: 'reinterpret_cast': conversión de '_word_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\winthread.hpp(88,24): warning C4312: 'reinterpret_cast': conversión de '_word_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\winthread.hpp(98,42): warning C4312: 'reinterpret_cast': conversión de '_word_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\winthread.hpp(129,34): warning C4312: 'reinterpret_cast': conversión de '_word_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\arch\win32\winthread.hpp(132,21): warning C4312: 'reinterpret_cast': conversión de '_word_size_t' a 'HANDLE' de mayor tamaño
+  rplidar_driver.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+  sl_crc.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+  sl_lidar_driver.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_lidar_driver.cpp(669,12): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_lidar_driver.cpp(863,25): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_lidar_driver.cpp(988,21): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_lidar_driver.cpp(1069,34): warning C4244: 'argumento': conversión de 'sl_u16' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=sl_u8
+          ]
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_lidar_driver.cpp(1078,32): warning C4267: 'inicializando': conversión de 'size_t' a 'sl_u8'; posible pérdida de datos
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_lidar_driver.cpp(1058,19): warning C4101: 'pkt_header': variable local sin referencia
+  sl_serial_channel.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_serial_channel.cpp(95,20): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  sl_tcp_channel.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_tcp_channel.cpp(57,16): warning C4806: '&': operación no segura: ningún valor del tipo 'bool' promovido al tipo 'unsigned int' puede igualar la constante proporcionada
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_tcp_channel.cpp(90,20): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  sl_udp_channel.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_protocol.h(58,11): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): warning C4200: se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\include\sl_lidar_cmd.h(295,12): message : Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_udp_channel.cpp(56,16): warning C4806: '&': operación no segura: ningún valor del tipo 'bool' promovido al tipo 'unsigned int' puede igualar la constante proporcionada
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\sdk\src\sl_udp_channel.cpp(97,20): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Generando código
+  Previous IPDB not found, fall back to full compilation.
+  All 138 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  rplidar_driver.vcxproj -> C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\workspaces\vc14\x64\Release\rplidar_driver.dll

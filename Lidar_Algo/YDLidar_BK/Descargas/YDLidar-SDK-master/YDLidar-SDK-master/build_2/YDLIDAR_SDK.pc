@@ -1,0 +1,11 @@
+prefix=C:/Program Files (x86)/ydlidar_sdk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: YDLIDAR_SDK
+Description: 
+Version: 1.1.15
+Cflags:  /DWIN32 /D_WINDOWS /W3 -IC:/Program Files (x86)/ydlidar_sdk/include/src -IC:/Program Files (x86)/ydlidar_sdk/include
+Libs: -L${libdir}  -lWinmm -lsetupapi -lws2_32 -lydlidar_sdk
+

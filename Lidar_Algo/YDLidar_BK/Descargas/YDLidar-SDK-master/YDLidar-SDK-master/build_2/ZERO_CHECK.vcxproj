@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF581D86-9CC1-37DB-9858-6584781D522A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\bbf027730ae590b6b02848c0b7bafae8\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/ydlidar_sdk.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\UseSWIG.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\FindPackage.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfig.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfigVersion.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PkgConfig.pc.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\cmake_uninstall.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_base.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_parse.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\install_package.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\script_show_final_summary.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\math\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\examples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\examples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\ydlidar_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\base\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\common\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\math\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\network\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\impl\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\impl\windows\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\src\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\src\filters\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\examples\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/ydlidar_sdk.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\UseSWIG.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\FindPackage.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfig.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfigVersion.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PkgConfig.pc.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\cmake_uninstall.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_base.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_parse.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\install_package.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\script_show_final_summary.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\math\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\examples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\examples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\ydlidar_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\base\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\common\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\math\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\network\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\impl\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\impl\windows\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\src\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\src\filters\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\examples\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/ydlidar_sdk.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\UseSWIG.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\FindPackage.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfig.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfigVersion.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PkgConfig.pc.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\cmake_uninstall.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_base.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_parse.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\install_package.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\script_show_final_summary.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\math\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\examples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\examples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\ydlidar_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\base\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\common\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\math\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\network\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\impl\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\impl\windows\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\src\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\src\filters\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\examples\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/ydlidar_sdk.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGTest.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\UseSWIG.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\FindPackage.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfig.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfigVersion.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PkgConfig.pc.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\cmake_uninstall.cmake.in;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_base.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_parse.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\install_package.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\script_show_final_summary.cmake;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\math\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\examples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\examples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\CMakeLists.txt;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\ydlidar_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\base\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\common\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\math\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\network\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\impl\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\core\serial\impl\windows\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\src\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\src\filters\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\examples\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\CMakeFiles\generate.stamp;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\FindPackage.cmake.in">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfig.cmake.in">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfigVersion.cmake.in">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PkgConfig.pc.in">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\cmake_uninstall.cmake.in">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_base.cmake">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_parse.cmake">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\install_package.cmake">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\script_show_final_summary.cmake">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\math\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\examples\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\examples\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\CMakeLists.txt">
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\ydlidar_config.h.in">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

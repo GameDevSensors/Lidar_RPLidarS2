@@ -1,0 +1,304 @@
+﻿  Building Custom Rule C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/CMakeLists.txt
+cl : línea de comandos warning D9002: se omite la opción desconocida '-std=c++11'
+  timer.cpp
+  ydlidar_def.cpp
+  ActiveSocket.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(483,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(495,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\ActiveSocket.cpp(70,16): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\ActiveSocket.cpp(145,16): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\ActiveSocket.cpp(201,16): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  PassiveSocket.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(483,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(495,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\PassiveSocket.cpp(82,19): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\PassiveSocket.cpp(95,49): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\PassiveSocket.cpp(164,19): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  SimpleSocket.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(483,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(495,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.cpp(249,34): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.cpp(312,32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.cpp(1085,7): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.cpp(1094,10): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  serial.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(84,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(86,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(115,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(118,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+  list_ports_win.cpp
+  win_serial.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\win_serial.cpp(424,24): warning C4244: 'inicializando': conversión de 'double' a 'uint32_t'; posible pérdida de datos
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2541,23): warning C4244: 'argumento': conversión de 'const wchar_t' a 'const _Elem'; posible pérdida de datos
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)" que se está compilando
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)" que se está compilando
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)" que se está compilando
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)" que se está compilando
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\win_serial.cpp(712): message : Vea la referencia a la creación de una instancia de la función plantilla "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)" que se está compilando
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\win_serial.cpp(712): message : Vea la referencia a la creación de una instancia de la función plantilla "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)" que se está compilando
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  CYdLidar.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(84,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(86,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(115,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(118,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h(106,16): warning C5208: la clase sin nombre que se usa en el nombre typedef no puede declarar miembros que no sean miembros de datos no estáticos, enumeraciones de miembros o clases de miembros
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(313,22): warning C4251: 'CYdLidar::SampleRateMap': class 'std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(313): message : vea la declaración de 'std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(314,15): warning C4251: 'CYdLidar::m_SerialNumber': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(316,20): warning C4251: 'CYdLidar::defalutSampleRate': class 'std::vector<int,std::allocator<int>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(316): message : vea la declaración de 'std::vector<int,std::allocator<int>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(322,15): warning C4251: 'CYdLidar::m_SerialPort': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(323,15): warning C4251: 'CYdLidar::m_IgnoreString': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(324,22): warning C4251: 'CYdLidar::m_IgnoreArray': class 'std::vector<float,std::allocator<float>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(324): message : vea la declaración de 'std::vector<float,std::allocator<float>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/common/ydlidar_help.h(966,25): warning C4244: 'argumento': conversión de 'double' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(248,20): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(397,12): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(506,35): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(510,32): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(515,34): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(539,5): warning C4244: 'argumento': conversión de 'float' a 'DWORD'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(621,31): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(625,50): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(626,50): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(629,108): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(631,62): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(651,74): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(704,33): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(708,50): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(714,61): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(722,23): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(728,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(731,36): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(776,64): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(776,14): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1044,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1095,69): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1105,12): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1122,27): warning C4267: 'argumento': conversión de 'size_t' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1144,73): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1145,58): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1151,73): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1152,33): warning C4244: '=': conversión de 'double' a 'uint64_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1153,38): warning C4244: 'argumento': conversión de 'uint64_t' a 'uint32_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1157,31): warning C4267: 'argumento': conversión de 'size_t' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1171,39): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1241,57): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1254,55): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1265,35): warning C4244: '=': conversión de '_Ty' a 'float'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1277,43): warning C4244: '=': conversión de '_Ty' a 'float'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1280,38): warning C4244: '=': conversión de '_Ty' a 'float'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1286,36): warning C4244: '=': conversión de '_Ty' a 'float'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1297,24): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1305,23): warning C4244: '=': conversión de 'double' a 'uint64_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1306,28): warning C4244: 'argumento': conversión de 'uint64_t' a 'uint32_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1308,41): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1409,24): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1451,25): warning C4244: '=': conversión de 'double' a 'uint64_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1452,30): warning C4244: 'argumento': conversión de 'uint64_t' a 'uint32_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1537,50): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1561,20): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1563,33): warning C4244: 'argumento': conversión de 'float' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1593,19): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1599,19): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1609,19): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1615,19): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp(1645,37): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  ETLidarDriver.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(483,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(495,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(84,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(86,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(115,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(118,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h(106,16): warning C5208: la clase sin nombre que se usa en el nombre typedef no puede declarar miembros que no sean miembros de datos no estáticos, enumeraciones de miembros o clases de miembros
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/common/ydlidar_help.h(966,25): warning C4244: 'argumento': conversión de 'double' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(83,21): warning C4244: '=': conversión de 'double' a 'uint32_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(336,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(335,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(336,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(338,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(352,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(376,15): warning C4101: 'cfg': variable local sin referencia
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(389,15): warning C4101: 'cfg': variable local sin referencia
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(484,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(492,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(500,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(509,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(605,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(562,5): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(572,5): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(582,5): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(592,5): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(719,3): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(754,3): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(790,3): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(827,3): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(881,12): warning C4101: 'ans': variable local sin referencia
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp(1188,77): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  GSLidarDriver.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(84,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(86,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(115,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(118,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h(106,16): warning C5208: la clase sin nombre que se usa en el nombre typedef no puede declarar miembros que no sean miembros de datos no estáticos, enumeraciones de miembros o clases de miembros
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/common/ydlidar_help.h(966,25): warning C4244: 'argumento': conversión de 'double' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(483,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(495,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\GSLidarDriver.cpp(57,31): warning C4244: '=': conversión de 'double' a 'uint32_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\GSLidarDriver.cpp(310,25): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\GSLidarDriver.cpp(334,25): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\GSLidarDriver.cpp(784,43): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\GSLidarDriver.cpp(992,16): warning C4244: '=': conversión de 'double' a 'uint16_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\GSLidarDriver.cpp(1013,16): warning C4244: '=': conversión de 'double' a 'uint16_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\GSLidarDriver.cpp(1373,23): warning C4244: '=': conversión de 'double' a 'uint32_t'; posible pérdida de datos
+  SDMLidarDriver.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(84,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(86,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(115,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(118,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h(106,16): warning C5208: la clase sin nombre que se usa en el nombre typedef no puede declarar miembros que no sean miembros de datos no estáticos, enumeraciones de miembros o clases de miembros
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/common/ydlidar_help.h(966,25): warning C4244: 'argumento': conversión de 'double' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\SDMLidarDriver.cpp(52,23): warning C4244: '=': conversión de 'double' a 'uint32_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\SDMLidarDriver.cpp(243,29): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\SDMLidarDriver.cpp(635,28): warning C4244: '=': conversión de 'float' a 'uint8_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\SDMLidarDriver.cpp(903,76): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+  YDlidarDriver.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(483,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h(495,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(84,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(86,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(115,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(118,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h(106,16): warning C5208: la clase sin nombre que se usa en el nombre typedef no puede declarar miembros que no sean miembros de datos no estáticos, enumeraciones de miembros o clases de miembros
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/common/ydlidar_help.h(966,25): warning C4244: 'argumento': conversión de 'double' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\YDlidarDriver.cpp(52,31): warning C4244: '=': conversión de 'double' a 'uint32_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\YDlidarDriver.cpp(895,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\YDlidarDriver.cpp(994,68): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\YDlidarDriver.cpp(1499,85): warning C4267: '=': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\YDlidarDriver.cpp(1859,21): warning C4244: '=': conversión de 'double' a 'uint32_t'; posible pérdida de datos
+  ydlidar_sdk.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(84,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(86,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(115,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(118,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h(106,16): warning C5208: la clase sin nombre que se usa en el nombre typedef no puede declarar miembros que no sean miembros de datos no estáticos, enumeraciones de miembros o clases de miembros
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(313,22): warning C4251: 'CYdLidar::SampleRateMap': class 'std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(313): message : vea la declaración de 'std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(314,15): warning C4251: 'CYdLidar::m_SerialNumber': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(316,20): warning C4251: 'CYdLidar::defalutSampleRate': class 'std::vector<int,std::allocator<int>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(316): message : vea la declaración de 'std::vector<int,std::allocator<int>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(322,15): warning C4251: 'CYdLidar::m_SerialPort': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(323,15): warning C4251: 'CYdLidar::m_IgnoreString': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(324,22): warning C4251: 'CYdLidar::m_IgnoreArray': class 'std::vector<float,std::allocator<float>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h(324): message : vea la declaración de 'std::vector<float,std::allocator<float>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ydlidar_sdk.cpp(86,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ydlidar_sdk.cpp(144,42): warning C4267: '=': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos
+  NoiseFilter.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h(106,16): warning C5208: la clase sin nombre que se usa en el nombre typedef no puede declarar miembros que no sean miembros de datos no estáticos, enumeraciones de miembros o clases de miembros
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(95,42): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(95,42): warning C4267: 'inicializando': conversión de 'size_t' a 'const int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(112,31): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(135,46): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(269,38): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(269,38): warning C4267: 'inicializando': conversión de 'size_t' a 'const int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(484,28): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(489,28): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(495,55): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(496,55): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(579,12): warning C4477: 'printf' : la cadena de formato '%lu' requiere un argumento de tipo 'unsigned long', pero el argumento variádico 1 tiene el tipo 'size_t'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp(579,12): message : considere el uso de ' %zu' en la cadena de formato
+  StrongLightFilter.cpp
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h(106,16): warning C5208: la clase sin nombre que se usa en el nombre typedef no puede declarar miembros que no sean miembros de datos no estáticos, enumeraciones de miembros o clases de miembros
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\StrongLightFilter.cpp(28,32): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\StrongLightFilter.cpp(45,22): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\StrongLightFilter.cpp(144,38): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\StrongLightFilter.cpp(148,26): warning C4305: '+=': truncamiento de 'double' a 'float'
+  Generando código...
+  ydlidar_sdk.vcxproj -> C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\Release\ydlidar_sdk.lib

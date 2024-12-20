@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\CMakeFiles\bbf027730ae590b6b02848c0b7bafae8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\FindPackage.cmake.in">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfig.cmake.in">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PackageConfigVersion.cmake.in">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\PkgConfig.pc.in">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\cmake_uninstall.cmake.in">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_base.cmake">
+      <Filter>Buildsystem Input Files\cmake\common</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\common\ydlidar_parse.cmake">
+      <Filter>Buildsystem Input Files\cmake\common</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\install_package.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\cmake\script_show_final_summary.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\core</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\core\base</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\core\common</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\math\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\core\math</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\core\network</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\core\serial</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\core\serial\impl</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\core\serial\impl\windows</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\csharp</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\examples\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\csharp\examples</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\python</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\python\examples\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\python\examples</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\samples</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\src</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\src\filters</Filter>
+    </None>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\ydlidar_config.h.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{439792E8-4AB2-326F-BA21-D2F8951BF31A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AF2D9A3F-B3AA-3593-A965-7430C7EACBCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files">
+      <UniqueIdentifier>{4D94AEEC-03E2-366A-91DC-1B1E07FE9644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake">
+      <UniqueIdentifier>{0E6192AB-8A0F-3EC6-903D-377D6EB2E219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake\common">
+      <UniqueIdentifier>{00132C80-F9B3-3338-B571-BD572D8F7240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\core">
+      <UniqueIdentifier>{28C9AD42-EA01-3AD4-86F6-EA1A7EAD9D74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\core\base">
+      <UniqueIdentifier>{7F866996-0D71-318D-AA35-0B657B5B6C18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\core\common">
+      <UniqueIdentifier>{2C4F9599-5D39-3F87-9B6F-D86EEC8F1317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\core\math">
+      <UniqueIdentifier>{CFA3377F-483B-35E1-9536-1CFC25714EB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\core\network">
+      <UniqueIdentifier>{13CF8083-7F6D-3E5F-B154-56B35D3B23F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\core\serial">
+      <UniqueIdentifier>{2D52FDA7-A70C-3B2E-8EB5-ED10D4974AB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\core\serial\impl">
+      <UniqueIdentifier>{41ECCBF2-39DA-3414-9742-87A8C60824E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\core\serial\impl\windows">
+      <UniqueIdentifier>{A1B211C2-7DBC-3B9F-951E-8A0986ED9949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\csharp">
+      <UniqueIdentifier>{D1B9EC07-8433-3984-B5BB-1845DEDBD22A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\csharp\examples">
+      <UniqueIdentifier>{C2EE3142-F151-3466-8FA7-2568F8A794D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\python">
+      <UniqueIdentifier>{6E5A83E0-255E-3EFF-B49B-E6971CDC722B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\python\examples">
+      <UniqueIdentifier>{0A87E8FF-C5A8-3291-80D5-4B007B0F956E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\samples">
+      <UniqueIdentifier>{36A318D8-11AE-30AE-9B1F-F19AF5D383CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\src">
+      <UniqueIdentifier>{03EDCD43-285E-3265-B8D3-B4BC190723C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\src\filters">
+      <UniqueIdentifier>{0EFF2F34-4FAD-3669-9309-905B8EF88B19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

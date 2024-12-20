@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\CMakeFiles\ydlidar_csharp.dir\ydlidar_sdkCSHARP_wrap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\ydlidar_sdk.i" />
+    <CustomBuild Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\csharp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\ydlidar.cs" />
+    <None Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\ydlidarPINVOKE.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CD626179-3CB4-38C3-8E78-0A18B3C07DE2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

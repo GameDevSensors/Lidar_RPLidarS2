@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_def.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\ActiveSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\PassiveSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\list_ports_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\win_serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\GSLidarDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\SDMLidarDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\YDlidarDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ydlidar_sdk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\StrongLightFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\datatype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\locker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\typedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\v8stdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\base\ydlidar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ChannelDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\DriverInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_help.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\math\angles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\ActiveSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\PassiveSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\SimpleSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\network\StatTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\win.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\serial\impl\windows\win_serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\CYdLidar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ETLidarDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\GSLidarDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\SDMLidarDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\YDlidarDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\ydlidar_sdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\FilterInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\NoiseFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src\filters\StrongLightFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\ydlidar_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AF2D9A3F-B3AA-3593-A965-7430C7EACBCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CD626179-3CB4-38C3-8E78-0A18B3C07DE2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

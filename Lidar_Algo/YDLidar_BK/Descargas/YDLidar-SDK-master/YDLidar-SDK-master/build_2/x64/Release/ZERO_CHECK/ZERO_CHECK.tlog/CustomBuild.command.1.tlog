@@ -1,0 +1,10 @@
+^C:\USERS\TAYDE\DOWNLOADS\YDLIDAR-SDK-MASTER\YDLIDAR-SDK-MASTER\BUILD_2\CMAKEFILES\BBF027730AE590B6B02848C0B7BAFAE8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/ydlidar_sdk.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

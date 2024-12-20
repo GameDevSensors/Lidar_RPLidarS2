@@ -1,0 +1,2 @@
+﻿  stdafx.cpp
+C:\Users\tayde\Downloads\rplidar_sdk-master\rplidar_sdk-master\app\frame_grabber\stdafx.h(37,10): fatal  error C1083: No se puede abrir el archivo incluir: 'atlbase.h': No such file or directory

@@ -1,0 +1,22 @@
+^C:\USERS\TAYDE\DOWNLOADS\YDLIDAR-SDK-MASTER\YDLIDAR-SDK-MASTER\PYTHON\YDLIDAR_SDK.I
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/python/CMakeFiles/_ydlidar.dir C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/python C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/python/CMakeFiles/_ydlidar.dir
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env SWIG_LIB=C:/Users/tayde/Downloads/swigwin-4.1.1/Lib C:/Users/tayde/Downloads/swigwin-4.1.1/swig.exe -python -module ydlidar -outdir C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/python -c++ -interface _ydlidar -IC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/. -IC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/core -IC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/src -IC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -IC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 -IC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/python -IC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/.. -IC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/python "-IC:/Program Files/Python312/include" -o C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/python/CMakeFiles/_ydlidar.dir/ydlidar_sdkPYTHON_wrap.cxx C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/python/ydlidar_sdk.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TAYDE\DOWNLOADS\YDLIDAR-SDK-MASTER\YDLIDAR-SDK-MASTER\PYTHON\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/python/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

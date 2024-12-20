@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9FFB9030-67DC-3F04-A3BC-51B6BB64ABF1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\..;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\..;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\..;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\src;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\..;C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\samples\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/samples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/samples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/samples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/samples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/samples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/samples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/samples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master -BC:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2 --check-stamp-file C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/samples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\ZERO_CHECK.vcxproj">
+      <Project>{DF581D86-9CC1-37DB-9858-6584781D522A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\et_test.vcxproj">
+      <Project>{1C145F3D-7208-33FB-95C5-D6D4B5252336}</Project>
+      <Name>et_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\gs_test.vcxproj">
+      <Project>{2B5E6E25-AE92-3E6B-92BA-B8F02E6EE73F}</Project>
+      <Name>gs_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\lidar_c_api_test.vcxproj">
+      <Project>{03EBC99B-7640-3C68-9D42-14B368E465F6}</Project>
+      <Name>lidar_c_api_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\scl_test.vcxproj">
+      <Project>{15147FE9-70A3-37F6-8117-E5BFC314ACA6}</Project>
+      <Name>scl_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\sdm_test.vcxproj">
+      <Project>{FBB35E3A-8D1D-3BCB-8BCE-145CA859811B}</Project>
+      <Name>sdm_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\tmini_test.vcxproj">
+      <Project>{F7F1F46D-C175-3E3E-8864-D505EDB42EEF}</Project>
+      <Name>tmini_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\tof_test.vcxproj">
+      <Project>{86FAE1AB-15F0-371D-9AD5-F106863FCC57}</Project>
+      <Name>tof_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\tri_and_gs_test.vcxproj">
+      <Project>{BC6B5C1D-E7B0-3E3F-8678-8CD07D159D10}</Project>
+      <Name>tri_and_gs_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\tri_restart.vcxproj">
+      <Project>{5B938016-F2E6-381B-84D2-3B821FC80C17}</Project>
+      <Name>tri_restart</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\samples\tri_test.vcxproj">
+      <Project>{35E0E6BC-7840-3EE2-B1DC-0DACF8B5E8AA}</Project>
+      <Name>tri_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿  Swig compile ydlidar_sdk.i for python
+  Building Custom Rule C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/python/CMakeLists.txt
+cl : línea de comandos warning D9002: se omite la opción desconocida '-std=c++11'
+cl : línea de comandos warning D9002: se omite la opción desconocida '-std=c++11'
+cl : línea de comandos warning D9002: se omite la opción desconocida '-std=c++11'
+  ydlidar_sdkPYTHON_wrap.cxx
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(84,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(86,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(115,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\.\core/base/thread.h(118,1): warning C4312: 'reinterpret_cast': conversión de '_size_t' a 'HANDLE' de mayor tamaño
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\common\ydlidar_datatype.h(106,16): warning C5208: la clase sin nombre que se usa en el nombre typedef no puede declarar miembros que no sean miembros de datos no estáticos, enumeraciones de miembros o clases de miembros
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\../src/CYdLidar.h(313,22): warning C4251: 'CYdLidar::SampleRateMap': class 'std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\../src/CYdLidar.h(313): message : vea la declaración de 'std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\../src/CYdLidar.h(314,15): warning C4251: 'CYdLidar::m_SerialNumber': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\../src/CYdLidar.h(316,20): warning C4251: 'CYdLidar::defalutSampleRate': class 'std::vector<int,std::allocator<int>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\../src/CYdLidar.h(316): message : vea la declaración de 'std::vector<int,std::allocator<int>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\../src/CYdLidar.h(322,15): warning C4251: 'CYdLidar::m_SerialPort': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\../src/CYdLidar.h(323,15): warning C4251: 'CYdLidar::m_IgnoreString': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : vea la declaración de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\../src/CYdLidar.h(324,22): warning C4251: 'CYdLidar::m_IgnoreArray': class 'std::vector<float,std::allocator<float>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'CYdLidar'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\core\../src/CYdLidar.h(324): message : vea la declaración de 'std::vector<float,std::allocator<float>>'
+C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\CMakeFiles\_ydlidar.dir\ydlidar_sdkPYTHON_wrap.cxx(5837,81): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+     Creando biblioteca C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/python/Release/_ydlidar.lib y objeto C:/Users/tayde/Downloads/YDLidar-SDK-master/YDLidar-SDK-master/build_2/python/Release/_ydlidar.exp
+  _ydlidar.vcxproj -> C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\Release\_ydlidar.pyd

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\Release\ydlidar_sdk.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\python\Release\_ydlidar.pyd</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\Release\et_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\Release\lidar_c_api_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\Release\sdm_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\Release\tmini_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\csharp\Release\ydlidar_csharp.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\tayde\Downloads\YDLidar-SDK-master\YDLidar-SDK-master\build_2\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
